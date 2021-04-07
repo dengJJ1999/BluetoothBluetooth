@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/home/index",
+    "pages/login/index",
+    "pages/aiNetworkingControl/index",
+    "pages/aiUpAndDownDesk/index",
+    "pages/index/index",
+    "pages/aiLighting/index",
+    "pages/logs/logs",
+    "pages/AirConditioner/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "plugins": {
+    "tuya-ap-plugin": {
+      "version": "3.3.4", 
+      "provider": "wxd2aa51ffacc3ff86"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

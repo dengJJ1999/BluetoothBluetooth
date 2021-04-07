@@ -1,0 +1,28 @@
+<view class="content-area">
+  <view style="margin-top:60px;" class="listfordata">
+    <view class="top">
+      <image class="img" src="https://sysimg.calfkaka.com/ekskds_remove@2x.png" bindtap='goBack' />
+      <view class="title">Air conditioner</view>
+      <view class="img"></view>
+    </view>
+    <view class="selectBox" wx:if="{{BrandArr.length >=1}}">
+      <input placeholder="搜索点击对应的空调品牌" style="width:646rpx;" maxlength="10" bindinput="searchData" />
+    </view>
+    <view class="selectBox" wx:for="{{BrandArr}}" wx:key="index" bindtap="gotoIndex" data-brandid="{{item.brand_id}}"
+      data-name="{{item.brand_name}}">
+      <!-- <view class="name">hihi </view> -->
+      <view class="name">{{item.brand_name}}</view>
+      <view class="text-icon">
+        <image class="selectIcon" src="https://sysimg.calfkaka.com/babyInteraction_icon-tip@2x.png" />
+      </view>
+    </view>
+  </view>
+  <view class="A1" wx:if="{{remote_indexShow}}">
+    <image class="testOpenIcon" bindtap="testBtn" src="https://sysimg.calfkaka.com/ekskds_testopenbtn.png" />
+    <view class="text">请对准空调，点击开关确认空调是否响应,如无响应请切换下一个</view>
+    <view class="testBtnShow">
+      <view class="Show_L" bindtap="nextIndex" data-value="{{sta_index}}">下一个({{sta_index}}/{{remote_indexArr.length}})</view>
+      <view class="Show_R" bindtap="gotoAir">有响应</view>
+    </view>
+  </view>
+</view>

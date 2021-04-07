@@ -1,0 +1,47 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "升降书桌",
+          "pathName": "pages/aiUpAndDownDesk/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "空调遥控",
+          "pathName": "pages/aiNetworkingControl/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "首页",
+          "pathName": "pages/home/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "空调",
+          "pathName": "pages/AirConditioner/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "灯光",
+          "pathName": "pages/aiLighting/index",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

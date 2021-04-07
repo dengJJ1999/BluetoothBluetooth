@@ -1,0 +1,191 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(175deg, #FFFFFF 0%, #F2F2EC 100%);
+  height: 100vh;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 609rpx;
+  margin: 100rpx 42rpx 0 42rpx;
+}
+.top .img{
+  width: 92rpx;
+  height: 92rpx;
+}
+
+.top .title{
+ font-size: 36rpx;
+font-weight: 500;
+color: #999999;
+}
+.buttonBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-bottom:53rpx;
+}
+.buttonBg{
+  width: 286rpx;
+  height: 715rpx;
+}
+.button-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 208rpx;
+  height: 714rpx;
+  position: absolute;
+  top: 5rpx;
+  left: 38rpx;
+}
+.buttonR1{
+  width: 208rpx;
+  height: 208rpx;
+  position: absolute;
+  top: 11rpx;
+ 
+}
+.buttonRB{
+  width: 236rpx;
+  height: 236rpx;
+  position: absolute;
+  top: 244rpx;
+  left:-14rpx;
+}
+.buttonR2{
+  width: 208rpx;
+  height: 208rpx;
+  position: absolute;
+  top: 505rpx;
+  
+}
+.buttonBox2{
+  display: flex;
+  flex-direction: row;
+  margin-bottom:36rpx;
+}
+.button-H{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.button-H .text{
+font-size: 28rpx;
+font-family: PingFangSC-Medium, PingFang SC;
+font-weight: 500;
+color: #A0AB7D;
+}
+
+.bottom{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20rpx;
+  padding-bottom: calc(env(safe-area-inset-bottom) - 20px);
+}
+.bottom .text{
+font-size: 32rpx;
+font-weight: 400;
+color: #999999;
+margin-bottom:20rpx
+}
+.bottom .text2{
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #999999;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center
+}
+.text3{
+  color: #FF5425;
+  margin-right:8rpx
+}
+.buttonImg2{
+  width: 106rpx;
+  height: 230rpx;
+}
+.bottomImg{
+  width: 230rpx;
+  height: 230rpx;
+}
+
+.fixedBottom{
+  position:fixed;
+  bottom:0;
+  width: 750rpx;
+height: 291rpx;
+background: linear-gradient(180deg, #F7F7F7 0%, #FAF7F7 96%, #DEDCDC 100%);
+box-shadow: 0rpx 0rpx 20rpx 0rpx rgba(0, 0, 0, 0.04);
+border-radius: 4rpx 4rpx 0rpx 0rpx;
+}
+.fixedBottom .text{
+  width: 602rpx;
+  height:90rpx;
+  margin:35rpx auto;
+font-size: 32rpx;
+font-weight: 400;
+color: #333333;
+}
+.fixedBottom .buttonBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 558rpx;
+  margin:0 auto;
+}
+.fixedBottom .buttonBox .btn1{
+  width: 258rpx;
+  height: 88rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  border-radius: 44rpx;
+  background: linear-gradient(180deg, #F6FF60 0%, #9FA01E 100%);
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 36rpx;
+}
+.fixedBottom .buttonBox .btn{
+  width: 258rpx;
+  height: 88rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  border-radius: 44rpx;
+  border: 2rpx solid #BCCC43;
+  color:#BCCC43;
+  font-weight: 500;
+  font-size: 36rpx;
+}
+
+.opentext{
+  /* position: absolute;
+  top: 330rpx;
+  left:80rpx; */
+  font-size: 52rpx;
+  color: #7ad5f6;
+  font-weight: bold;
+  z-index: 9;
+  margin-top: 14rpx;
+}
+
+.du{
+  position: absolute;
+  top: 320rpx;
+  left:130rpx;
+  font-size: 42rpx;
+  color: #7ad5f6;
+  font-weight: bold;
+}

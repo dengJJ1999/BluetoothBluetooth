@@ -1,0 +1,63 @@
+<view class="page">
+  <view class="top">
+    <!-- <image class="img" src="https://sysimg.calfkaka.com/ekskds_remove@2x.png" bindtap='goBack' /> -->
+    <view class="img"></view>
+    <view class="title">Intelligent lamp</view>
+    <view class="img"></view>
+  </view>
+  <view class="buttonBox">
+    <image class="buttonBg" src="https://sysimg.calfkaka.com/ekskds_Combined Shape@2x.png?id=2" />
+    <view class="button-item">
+      <!-- + -->
+      <image class="buttonR1" src="https://sysimg.calfkaka.com/ekskids_icon_light1.png"   wx:if="{{!status}}"   bindtap=""/>
+      <image class="buttonR1" src="https://sysimg.calfkaka.com/ekskids_icon_light_liang.png" wx:if="{{status}}"  bindtap="brightBtn"/>
+      <!--开关 -->
+      <image class="buttonRB" src="https://sysimg.calfkaka.com/ekskids_icon_off.png" wx:if="{{!status}}"  bindtap="openBtn" />
+      <image class="buttonRB" src="https://sysimg.calfkaka.com/ekskids_icon_on.png" wx:if="{{status}}"  bindtap="closeBtn" />
+      <!-- <view class="opentext" bindtap="openBtn" wx:if="{{status}}">{{num}}</view> -->
+      <!-- - -->
+      <image class="buttonR2" src="https://sysimg.calfkaka.com/ekskids_icon_light2.png" wx:if="{{!status}}"  bindtap="" />
+      <image class="buttonR2" src="https://sysimg.calfkaka.com/ekskids_icon_light_ruo.png" wx:if="{{status}}" bindtap="darkBtn" />
+    </view>
+  </view>
+  <view class="buttonBox2">
+    <view class="button-H"  bindtap="{{status? 'colorBtn' : ''}}">
+      <image class="buttonImg2" src="https://sysimg.calfkaka.com/ekskds_pic_1@2x.png" />
+      <view class="text">色温</view>
+    </view>
+
+    <view class="button-H" >
+      <image class="buttonImg2"  src="https://sysimg.calfkaka.com/ekskds_pic_2@2x.png" />
+      <view class="text"  >定时</view>
+    </view>
+
+    <view class="button-H" bindtap="{{status? 'flash' : ''}}">
+      <image class="buttonImg2" src="https://sysimg.calfkaka.com/ekskds_pic_3@2x.png" />
+      <view class="text">闪烁</view>
+    </view>
+
+    <view class="button-H" bindtap="{{status? 'fade' : ''}}">
+      <image class="buttonImg2" src="https://sysimg.calfkaka.com/ekskds_pic_4@2x.png" />
+      <view class="text">渐变</view>
+    </view>
+
+    <view class="button-H" bindtap="{{status? 'smooth' : ''}}">
+      <image class="buttonImg2" src="https://sysimg.calfkaka.com/ekskds_pic_5@2x.png" />
+      <view class="text">平滑</view>
+    </view>
+  </view>
+  <view class="bottom">
+    <image class="bottomImg" src="https://sysimg.calfkaka.com/ekskids_icon_study desk.png" bindtap="goDesk" />
+    <image class="bottomImg" src="https://sysimg.calfkaka.com/ekskids_icon_air con.png" bindtap="goConditioner" />
+    
+    <!-- <view class="text">Air conditioner</view> -->
+    <view class="red">{{typeBTooth}}</view>
+    <view class="text2" wx:if="{{!isIOS}}">
+      <view class="text3">*</view>手机需开启蓝牙与定位
+    </view>
+    <view class="text2" wx:if="{{isIOS}}">
+      <view class="text3">*</view>手机需开启蓝牙
+    </view>
+  </view>
+
+</view>

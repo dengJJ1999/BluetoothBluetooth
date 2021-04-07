@@ -1,0 +1,130 @@
+/* pages/environmentalManagement/androidAppDms/index.wxss */
+.receive {
+  margin-top: 200rpx;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 609rpx;
+}
+.top .img{
+  width: 92rpx;
+  height: 92rpx;
+}
+
+.top .title{
+  font-size: 36rpx;
+ font-weight: 500;
+ color: #999999;
+ }
+.listfordata {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: calc(env(safe-area-inset-bottom) - 15px);
+  margin-bottom: 73rpx;
+}
+.selectBox {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 686rpx;
+  height: 98rpx;
+  padding: 0 20rpx;
+  margin-bottom: 8rpx;
+  background: linear-gradient(180deg, #fafafa 0%, #f5f5f5 92%, #e0e0e0 100%);
+  border-radius: 4rpx;
+}
+.selectIcon {
+  width: 28rpx;
+  height: 28rpx;
+  margin-left: 8rpx;
+}
+
+.btn {
+  margin-bottom: 14rpx;
+}
+
+.A1 {
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 478rpx;
+  padding: 0 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* background: cyan; */
+  background: linear-gradient(180deg, #F7F7F7 0%, #FAF7F7 98%, #DEDCDC 100%);
+  box-shadow: 0 0 20rpx 0rpx rgba(0, 0, 0, 0.04);
+  border-radius: 4rpx 4rpx 0 0;
+}
+
+.B {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 200rpx;
+  height: 100rpx;
+  background: darkgray;
+}
+
+.testOpenIcon {
+  width: 187rpx;
+  height: 187rpx;
+  margin-top: 16rpx;
+}
+
+.A1 .text {
+  width: 602rpx;
+  line-height: 45rpx;
+  font-size: 32rpx;
+  color: #333;
+}
+
+.A1 .testBtnShow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 602rpx;
+  height: 88rpx;
+  margin-top: 40rpx;
+}
+
+.testBtnShow .Show_L{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 258rpx;
+  height: 88rpx;
+  border-radius: 44rpx;
+  border: 2rpx solid #BCCC43;
+  font-size: 36rpx;
+  line-height: 50rpx;
+  color: #BCCC43;
+}
+
+.testBtnShow .Show_R{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 258rpx;
+  height: 88rpx;
+  background: linear-gradient(180deg, #F6FF60 0%, #9FA01E 100%);
+  border-radius: 44rpx;
+  border: 3rpx solid;
+  font-size: 36rpx;
+  line-height: 50rpx;
+  color: #fff;
+}
+
+

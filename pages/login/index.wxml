@@ -1,0 +1,14 @@
+<!-- pages/mainPages/login/index.wxml -->
+<view class="container">
+  <view class="loginContent">
+    <view class="logoImg">
+      <image src="../../img/desk/logo.png"></image>
+    </view>
+    <view class="logoText FS-28">{{logoText}}</view>
+    <button open-type="getUserInfo" bindgetuserinfo="getUserInfo"
+      class='wxLogin bg-green'>
+      <image src="https://sysimg.calfkaka.com/icon_weixin@2x.png"></image>
+      <text>微信快捷登录</text>
+    </button>
+  </view>
+</view>

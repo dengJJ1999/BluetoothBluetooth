@@ -1,0 +1,73 @@
+<view class="page">
+  <view class="top">
+    <image class="img" src="https://sysimg.calfkaka.com/ekskds_mennue@2x.png" bindtap='again' />
+    <!-- <image class="img" src="https://sysimg.calfkaka.com/ekskds_remove@2x.png" bindtap='goBack' /> -->
+    <view class="title">Air conditioner</view>
+    <view class="img"></view>
+  </view>
+  <view class="buttonBox">
+    <image class="buttonBg" src="https://sysimg.calfkaka.com/ekskds_Combined Shape@2x.png?id=2" />
+    <view class="button-item">
+      <!-- + -->
+      <image class="buttonR1" src="https://sysimg.calfkaka.com/ekskds_icon_closeshang@2x.png.png" bindtap="" wx:if="{{status}}" />
+      <image class="buttonR1" src="https://sysimg.calfkaka.com/ekskds_icon_shang@2x.png" bindtap="shangBtn" wx:if="{{!status}}" />
+      <!--开关 -->
+      <image class="buttonRB" src="https://sysimg.calfkaka.com/ekskds_icon_close@2x.png?id=3" bindtap="closeBtn" wx:if="{{status}}"/>
+      <image class="buttonRB" src="https://sysimg.calfkaka.com/ekskds_icon_open@2x.png" bindtap="openBtn" wx:if="{{!status}}" />
+      <view class="opentext" bindtap="openBtn" wx:if="{{!status}}">{{temp}}</view>
+      <view class="du" bindtap="openBtn" wx:if="{{!status}}">°</view>
+      <!-- - -->
+      <image class="buttonR2" src="https://sysimg.calfkaka.com/ekskds_icon_closexia@2x.png@2x.png?id=2" bindtap="" wx:if="{{status}}" />
+      <image class="buttonR2" src="https://sysimg.calfkaka.com/ekskds_icon_xia@2x.png?id=2" bindtap="xiaBtn" wx:if="{{!status}}" />
+    </view>
+  </view>
+  <view class="buttonBox2">
+
+    <view class="button-H" bindtap="{{!status ? 'modeBtn' : ''}}">
+      <image class="buttonImg2" bindtap="" src="https://sysimg.calfkaka.com/ekskds_pic_1@2x.png" />
+      <view class="text" bindtap="" wx:if="{{status}}">模式</view>
+      <view class="text" bindtap="" wx:if="{{!status}}" data-i="{{modeValue}}">{{modeArr}}</view>
+    </view>
+
+    <view class="button-H" bindtap="{{!status ? 'windBtn' : ''}}">
+      <image class="buttonImg2"  src="https://sysimg.calfkaka.com/ekskds_pic_2@2x.png" />
+      <view class="text" bindtap="" wx:if="{{status}}">风速</view>
+      <view class="text" bindtap="" wx:if="{{!status}}">{{windArr[windValue]}}</view>
+    </view>
+
+    <view class="button-H">
+      <image class="buttonImg2" src="https://sysimg.calfkaka.com/ekskds_pic_3@2x.png" />
+      <view class="text">定时</view>
+    </view>
+
+    <view class="button-H">
+      <image class="buttonImg2" src="https://sysimg.calfkaka.com/ekskds_pic_4@2x.png" />
+      <view class="text">节能</view>
+    </view>
+
+    <view class="button-H">
+      <image class="buttonImg2" src="https://sysimg.calfkaka.com/ekskds_pic_5@2x.png" />
+      <view class="text">睡眠</view>
+    </view>
+
+  </view>
+  <view class="bottom">
+    <image class="bottomImg" src="https://sysimg.calfkaka.com/ekskds_icon_study desk.png" bindtap="goDesk" />
+    <image class="bottomImg" src="https://sysimg.calfkaka.com/ekskidsHome_icon_light.png" bindtap="goLight" />
+    <!-- <view class="text">Study desk</view> -->
+    <view class="text2">
+      <view class="text3">*</view>手机需开启WIFI与定位
+    </view>
+  </view>
+
+  <!-- 底部切换遥控框
+<view class="fixedBottom" wx:if="{{tips &&!status}}">
+  <view class="text">请对准空调，点击开关确认空调是否响应，如无响应请切换下一个</view>
+  <view class="buttonBox">
+    <view class="btn"  bintap="next">下一个({{size}}/{{total}})</view>
+    <view class="btn1" bintap="closeTips">可以用</view>
+  </view>
+</view> -->
+
+
+</view>

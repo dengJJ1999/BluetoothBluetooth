@@ -1,0 +1,18 @@
+<veiw>
+  <view class="IconBox" >
+  <image class="LOGO" src="https://sysimg.calfkaka.com/ekskds_logo.png" />
+  <view class="title">EKSKIDS SMART</view>
+  </view>
+  <view class="IconBox" >
+  <image class="btnImg" src="https://sysimg.calfkaka.com/ekskds_icon_study desk.png" bindtap="goDesk" />
+  <!-- <view class="text">Study desk</view> -->
+  </view>
+  <view class="IconBox">
+  <image class="btnImg" src="https://sysimg.calfkaka.com/ekskds_icon_air con.png" bindtap="goConditioner" />
+  <!-- <view class="text">Air conditioner</view> -->
+  </view>
+  <view class="IconBox">
+  <image class="btnImg" src="https://sysimg.calfkaka.com/ekskidsHome_icon_light.png" bindtap="goLight" />
+  <!-- <view class="text">Intelligent lamp</view> -->
+  </view>
+</veiw>

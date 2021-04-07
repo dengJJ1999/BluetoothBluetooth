@@ -1,0 +1,23 @@
+小程序相关文档：
+
+小程序 SDK 介绍：https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/applet-ecology?id=K9ptacgp94o5d
+
+如何在涂鸦 IoT 平台创建一个小程序：https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/quick-start/create-applets?id=Ka4nqyh40p3yf
+
+如何发布一个小程序：https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/quick-start/development-and-publishment?id=Kabbsipvgmhxu
+
+什么是设备功能点：https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/quick-start/device-function-point?id=Ka6y8bi672n1s
+
+配网插件如何接入：https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/plugin/distribution-network-plugin?id=K9lq218xn0wn8
+
+场景插件如何接入：https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/plugin/wx?id=Ka423u0lchk60
+
+小程序云函数介绍：https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/tuya-smart/sdk-document?id=K9knho6hj6q1k
+
+小程序接口索引：https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/tuya-smart/api-document?id=K9knhmylnda9w
+
+小程序接口列表：https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/tuya-smart/api-list?categoryId=726008
+
+如果您有时间，也可以帮忙填写这份问卷，帮助我们进行提升：https://survey.tuyacn.com/survey/2uebkpic
+
+如果您有问题需要协助，请在 IoT 平台提交工单，IoT 平台地址：https://iot.tuya.com/

@@ -1,0 +1,102 @@
+.loginContent {
+  margin-top: 57rpx;
+  text-align: center;
+}
+
+.loginContent .logoImg {
+  width: 230rpx;
+  height: 230rpx;
+  margin: 0 auto;
+  margin-bottom: 16rpx;
+}
+
+.loginContent .logoImg image {
+  width: 90%;
+  height: 90%;
+}
+
+.loginContent .FS-28 {
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 99rpx;
+}
+
+.loginContent .loginRule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26rpx;
+  color: #999;
+  margin-bottom: 40rpx;
+}
+
+.loginContent .loginRule image {
+  width: 28rpx;
+  height: 28rpx;
+  vertical-align: middle;
+  margin-right: 16rpx;
+}
+
+.loginContent .loginRule .blueText {
+  color: #bccc43;
+}
+
+.loginContent .wxLogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 588rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  border-radius: 44rpx;
+}
+
+.loginContent .wxLogin::after {
+  border: none;
+}
+
+.loginContent .wxLogin.bg-green {
+  background: linear-gradient(180deg, #F6FF60 0%, #9FA01E 100%);
+  box-shadow: 0rpx 8rpx 20rpx 0rpx rgba(199, 210, 92, 0.3);
+}
+
+.loginContent .wxLogin .loginRule {
+  font-size: 26rpx;
+  color: #999;
+  margin-bottom: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginContent .wxLogin .loginRule image {
+  width: 28rpx;
+  height: 28rpx;
+  vertical-align: middle;
+  margin-right: 16rpx;
+}
+
+.loginContent .wxLogin .loginRule .blueText {
+  color: #BCCC43;
+}
+
+.loginContent .wxLogin image {
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+  margin-right: 16rpx;
+}
+
+.loginContent .wxLogin text {
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #ffffff;
+  /* color: #000; */
+}
+
+.dialog-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30rpx 0;
+}
